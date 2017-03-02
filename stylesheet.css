@@ -1,0 +1,36 @@
+html *{
+  font-family: Helvetica;
+}
+
+#nav {
+  list-style-type: none;
+  margin: 0px;
+  padding: 20px;
+  background-color: red;
+  overflow: hidden;
+}
+
+#navlist {
+  display: inline;
+  text-align: center;
+  padding: 70px;
+  font-size: 1.5em;
+  border-right: 1px solid white;
+}
+
+#navlist:last-child{
+  border-right: none;
+}
+
+#navlist a:hover{
+  background-color: gray;
+}
+
+#navtext {
+  color: white;
+  text-decoration: none;
+}
+
+#nav a:active {
+  color: black;
+}
