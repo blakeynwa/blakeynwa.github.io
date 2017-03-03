@@ -11,14 +11,15 @@ html *{
 }
 
 #crest {
-  display: block;
   float: left;
-  max-width:150px;
-  max-height:150px;
+  display: block;
+  max-width:400px;
+  max-height:400px;
   width: auto;
   height: auto;
-  margin: 0px;
   background-color: red;
+  border: 2px solid black;
+  margin-left: -40px
 }
 
 
@@ -43,6 +44,42 @@ html *{
   text-decoration: none;
 }
 
-#nav a:active {
+#nav li a:active {
   color: black;
 }
+
+.facts {
+  background-color: white;
+  border-top: 15px inset red;
+  width: 400px;
+  margin-left: 10px;
+  text-align: left;
+  float: left;
+}
+
+li p {
+  font-style: italic;
+}
+
+h1{
+  text-align: center;
+}
+
+#livfacts{
+  list-style-type: none;
+}
+
+#trophylist{
+  list-style-type: none;
+}
+
+div {
+  display: inline-block;
+}
+
+.official{
+  background-color: white;
+  border-top: 15px inset red;
+  
+}
+
