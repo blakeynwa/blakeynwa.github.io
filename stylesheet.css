@@ -1,0 +1,283 @@
+html *{
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", 
+  "Lucida Sans", Tahoma, sans-serif;
+  }
+
+#nav {
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+  background-color: #C31014;
+  overflow: hidden;
+}
+
+#crest {
+  float: left;
+  display: block;
+  max-width:400px;
+  max-height:400px;
+  width: auto;
+  height: auto;
+  background-color: #C31014;
+  border: 2px solid black;
+  margin-left: -40px
+}
+
+
+#nav li {
+  display: inline;
+  text-align: center;
+  padding: 50px;
+  font-size: 1.5em;
+  border-right: 1px solid white;
+}
+
+#nav li:last-child{
+  border-right: none;
+}
+
+#nav a:visited{
+  color: black;
+}
+
+#nav li a:hover{
+  background-color: gray;
+}
+
+#nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.facts {
+  background-color: white;
+  border-top: 15px inset #66CDAA;
+  width: 400px;
+  margin-left: 10px;
+  text-align: left;
+  float: left;
+}
+
+li p {
+  font-style: italic;
+}
+
+h1{
+  text-align: center;
+}
+
+#livfacts{
+  list-style-type: none;
+}
+
+#trophylist{
+  list-style-type: none;
+}
+
+div {
+  display: inline-block;
+}
+
+.misc{
+  background-color: white;
+  display: inline-block;
+  width: 600px;
+  margin-left: 350px;
+  margin-top: -100px;
+}
+
+.official{
+  background-color: white;
+  border-top: 15px inset #66CDAA;
+  background-image: url(images/bird.jpg);
+}
+
+.official a{
+  font-family: "Comic Sans Ms";
+}
+
+.anfsection{
+  border-top: 15px inset #66CDAA;
+}
+
+#anfacts{
+  list-style-type: none;
+  margin-left: -30px;
+}
+
+#kop{
+  display: inline-block;
+  margin-left: -2px;
+  width: 400px;
+}
+
+#visit{
+  display: inline-block;
+  float: right;
+  margin-top: -450px;
+}
+
+#kop figcaption{
+  text-align: center;
+}
+
+#anfvisit figcaption{
+  text-align: center;
+}
+
+.gerrard{
+  border-top: 15px inset #66CDAA;
+  margin-bottom: -150px;
+}
+
+.gerrard table{
+  float: right;
+  display: inline-table;
+  position: relative;
+  right: 193px;
+  bottom: 320px;
+}
+
+.gerrard p{
+  display: inline-block;
+  width: 500px;
+  position: relative;
+  left: 610px;
+  bottom: 250px;
+}
+
+.gerrard h3{
+  text-align: center;
+  font-size: 1.7em;
+}
+
+.suarez{
+  border-top: 15px inset #66CDAA;
+  margin-bottom: -150px;
+}
+
+.suarez table{
+  float: right;
+  display: inline-table;
+  position: relative;
+  right: 360px;
+  bottom: 350px;
+}
+
+.suarez p{
+  display: inline-block;
+  width: 700px;
+  position: relative;
+  left: 450px;
+  bottom: 250px;
+}
+
+.suarez h3{
+  text-align: center;
+  font-size: 1.7em;
+}
+
+.dalglish{
+  border-top: 15px inset #66CDAA;
+  margin-bottom: -200px;
+}
+
+.dalglish table{
+  float: right;
+  display: inline-table;
+  position: relative;
+  right: 80px;
+  bottom: 390px;
+}
+
+.dalglish p{
+  display: inline-block;
+  width: 400px;
+  position: relative;
+  left: 725px;
+  bottom: 325px;
+}
+
+.dalglish h3{
+  text-align: center;
+  font-size: 1.7em;
+}
+
+.rush{
+  border-top: 15px inset #66CDAA;
+}
+
+.rush table{
+  float: right;
+  display: inline-table;
+  position: relative;
+  right: 80px;
+  bottom: 390px;
+}
+.rush p{
+  display: inline-block;
+  width: 300px;
+  position: relative;
+  left: 735px;
+  bottom: 325px;
+}
+
+.rush h3{
+  text-align: center;
+  font-size: 1.7em;
+  position: relative;
+  left: 200px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
+
+th{
+  background-color: #C31014;
+  color: white;
+}
+
+.klopp{
+  border-top: 15px inset #66CDAA;
+  margin-top: 20px;
+}
+
+#kltable{
+  float: right;
+  display: inline-table;
+  position: relative;
+  right: 120px;
+  bottom: 590px;
+}
+
+.klopp p{
+  display: inline-block;
+  width: 400px;
+  position: relative;
+  left: 685px;
+  bottom: 265px;
+}
+
+@media screen and (max-width: 768px) {
+  #nav li {
+    display: block;
+  }
+
+  #livfacts {
+    display: block;
+    position: relative;
+    top: 10px;
+  }
+
+  #trophylist {
+    display: block;
+    position: relative;
+  }
+
+  .misc {
+    display: inline-block;
+    position: relative;
+    right: 300px;
+    width: 250px;
+    top: 0px;
+  }
+}

@@ -2,17 +2,23 @@
 <html>
   <head>
     <title>Anfield - the Home of LFC</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
   </head>
   <body>
     <header>
       <nav>
-        <a href="index.html">Home</a> <a href="anfield.html">Anfield</a> <a href="players.html">Legendary Players</a> <a href="manager.html">Current Manager</a>
-      </nav> 
+        <ul id="nav">
+          <li ><a href="index.html" >Home</a></li>
+          <li ><a href="anfield.html" >Anfield</a></li>
+          <li ><a href="players.html" >Legendary Players</a></li>
+          <li ><a href="manager.html" >Current Manager</a></li>
+        </ul>  
+      </nav>
     </header>
-    <section>
-      <h1>Anfield is the home stadium of Liverpool FC</h1>
-      <p><strong>Anfield Facts</strong></p>
-      <ul>
+    <h1>Anfield is the home stadium of Liverpool FC</h1>
+    <section class="anfsection">
+      <ul id="anfacts">
+        <li><p><strong>Anfield Facts</strong></p></li>
         <li>Built in 1884</li>
         <li>Seats 54,074</li>
         <li>6th largest stadium in England</li>
@@ -20,20 +26,14 @@
       </ul>
     </section>
     <section>
-      <h3>Anfield Photos</h3>
-      <figure>
+      <figure id="kop">
         <img src="images/anfieldkop.jpg" alt="The Anfield Kop">
         <figcaption>Photo from the Kop, the section for the most passionate supporters</figcaption>
       </figure>
       <br>
-      <figure>
+      <figure id="visit">
         <img src="images/anfieldvisit.jpg" alt="My visit to Anfield in 2016" style="width:544px;height:408">
         <figcaption>This is a photo from my visit to Anfield in October 2016</figcaption>
-      </figure>
-      <br>
-      <figure>
-        <img src="images/anfieldvisit2.jpg" alt="Photo I took of the Kop" style="width:544px;height:408">
-        <figcaption>A photo I took of the Kop section in Anfield</figcaption>
       </figure>
      </section>
   </body>

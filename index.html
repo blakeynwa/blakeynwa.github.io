@@ -2,35 +2,51 @@
 <html>
   <head>
     <title>Liverpool FC</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
   </head>
   <body>
     <header>
       <nav>
-        <a href="index.html">Home</a> <a href="anfield.html">Anfield</a> <a href="players.html">Legendary Players</a> <a href="manager.html">Current Manager</a>
+        <ul id="nav">
+          <li ><a href="index.html" >Home</a></li>
+          <li ><a href="anfield.html" >Anfield</a></li>
+          <li ><a href="players.html" >Legendary Players</a></li>
+          <li ><a href="manager.html" >Current Manager</a></li>
+        </ul>  
       </nav>
     </header>
-     <section>
-      <h1>This is a website with a little information on my favorite soccer team, Liverpool FC!</h1>
-      <figure> 
-        <img src="images/crest.jpg" alt="Liverpool FC Crest" style="width: 255.5px;height:334.5px">
-        <figcaption>Liverpool FC Crest</figcaption>
-      </figure>
-      <p><strong>Here are some facts about Liverpool FC:</strong></p>
-      <ul>
+    <figure>
+      <img id="crest" src="images/crest.jpg" alt="Liverpool Crest">
+    </figure>
+    <h1>All About Liverpool FC</h1>
+    <section class="facts">
+      <ul id="livfacts">
+        <li><p><strong>Facts</strong></p></li>
         <li>Liverpool FC play in Liverpool, England, the same city the Beatles started in!</li>
         <li>The club was founded in 1982</li>
         <li>Liverpool have 2 huge rivals: Everton FC, who play less than 1 mile away from Liverpool, and Manchester United, who are the second most successful club in England</li>
-        <li>Liverpool are the most successful team in England with 18 league titles, 7 FA cups, 8 league cups, and 5 Champion's Leagues</li>
         <li>The fan base is widely considered to be the most passionate in England, with each home game creating an electric atmosphere</li>
       </ul>
       <br>
     </section>
-    <div>
-    <p>On the other pages you'll read about the stadium, legendary players, and the current manager. I hope you enjoy reading, and please let me know if you have any feedback!</p>
+    <section class="facts">
+      <ul id="trophylist">
+        <li><p><strong>Trophy Cabinet</strong></p></li>
+        <li>18 League Titles</li>
+        <li>7 FA Cups</li>
+        <li>8 League Cups</li>
+        <li>5 Champion's Leagues</li>
+      </ul>
+    </section>
+    <div class="misc">
+      <p>On the other pages you'll read about the stadium, legendary players, and the current manager. I hope you enjoy reading, and please let me know if you have any feedback!</p>
     </div>
-    <div>
-      <a href="http://www.liverpoolfc.com/">This is the official website for Liverpool Football Club.</a>
+    <div class="official">
+      <br>
+      <a href="http://www.liverpoolfc.com/">LFC Official Website (titled with Comic Sans for your viewing pleasure)</a>
       <p>The content can't be anymore related! I definitely recognize many of the tags used in the content. I think it's interesting how often div is used. I'm still trying to fully wrap my brain around when to use div vs other tags, and this helps provide some context. I think the HTML used in the website is good. As I dragged the cursor around the various elements, it was easy for me too see how the page was sectioned. Based off of that, I could easily move around in the source code and recognize which sections held which types of elements.</p>
+      <br>
+      <p>Please don't judge with the background! I didn't feel a background in any elements would fit in with the design of the website, so I'ved used this area to display that I know how to include a background image to an element :)</p>
     </div>
   </body>
 </html>
