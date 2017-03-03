@@ -256,3 +256,28 @@ th{
   left: 685px;
   bottom: 265px;
 }
+
+@media screen and (max-width: 768px) {
+  #nav li {
+    display: block;
+  }
+
+  #livfacts {
+    display: block;
+    position: relative;
+    top: 10px;
+  }
+
+  #trophylist {
+    display: block;
+    position: relative;
+  }
+
+  .misc {
+    display: inline-block;
+    position: relative;
+    right: 300px;
+    width: 250px;
+    top: 0px;
+  }
+}
