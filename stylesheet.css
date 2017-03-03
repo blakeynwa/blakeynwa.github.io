@@ -37,7 +37,7 @@ html *{
 }
 
 #nav a:visited{
-  background-color: black;
+  color: black;
 }
 
 #nav li a:hover{
@@ -93,4 +93,45 @@ div {
 
 .official a{
   font-family: "Comic Sans Ms";
+}
+
+.anfsection{
+  border-top: 15px inset #66CDAA;
+}
+
+#anfacts{
+  list-style-type: none;
+  margin-left: -30px;
+}
+
+#kop{
+  display: inline-block;
+  margin-left: -2px;
+  width: 400px;
+}
+
+#visit{
+  display: inline-block;
+  float: right;
+  margin-top: -450px;
+}
+
+figcaption{
+  text-align: center;
+}
+
+.gerrard{
+  border-top: 15px inset #66CDAA;
+}
+
+.suarez{
+  border-top: 15px inset #66CDAA;
+}
+
+.dalglish{
+  border-top: 15px inset #66CDAA;
+}
+
+.rush{
+  border-top: 15px inset #66CDAA;
 }
