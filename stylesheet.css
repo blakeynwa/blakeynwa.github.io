@@ -89,6 +89,7 @@ div {
 .official{
   background-color: white;
   border-top: 15px inset #66CDAA;
+  background-image: url(images/bird.jpg);
 }
 
 .official a{
