@@ -116,22 +116,142 @@ div {
   margin-top: -450px;
 }
 
-figcaption{
+#kop figcaption{
+  text-align: center;
+}
+
+#anfvisit figcaption{
   text-align: center;
 }
 
 .gerrard{
   border-top: 15px inset #66CDAA;
+  margin-bottom: -150px;
+}
+
+.gerrard table{
+  float: right;
+  display: inline-table;
+  position: relative;
+  right: 193px;
+  bottom: 320px;
+}
+
+.gerrard p{
+  display: inline-block;
+  width: 500px;
+  position: relative;
+  left: 610px;
+  bottom: 250px;
+}
+
+.gerrard h3{
+  text-align: center;
+  font-size: 1.7em;
 }
 
 .suarez{
   border-top: 15px inset #66CDAA;
+  margin-bottom: -150px;
+}
+
+.suarez table{
+  float: right;
+  display: inline-table;
+  position: relative;
+  right: 360px;
+  bottom: 350px;
+}
+
+.suarez p{
+  display: inline-block;
+  width: 700px;
+  position: relative;
+  left: 450px;
+  bottom: 250px;
+}
+
+.suarez h3{
+  text-align: center;
+  font-size: 1.7em;
 }
 
 .dalglish{
   border-top: 15px inset #66CDAA;
+  margin-bottom: -200px;
+}
+
+.dalglish table{
+  float: right;
+  display: inline-table;
+  position: relative;
+  right: 80px;
+  bottom: 390px;
+}
+
+.dalglish p{
+  display: inline-block;
+  width: 400px;
+  position: relative;
+  left: 725px;
+  bottom: 325px;
+}
+
+.dalglish h3{
+  text-align: center;
+  font-size: 1.7em;
 }
 
 .rush{
   border-top: 15px inset #66CDAA;
+}
+
+.rush table{
+  float: right;
+  display: inline-table;
+  position: relative;
+  right: 80px;
+  bottom: 390px;
+}
+.rush p{
+  display: inline-block;
+  width: 300px;
+  position: relative;
+  left: 735px;
+  bottom: 325px;
+}
+
+.rush h3{
+  text-align: center;
+  font-size: 1.7em;
+  position: relative;
+  left: 200px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}
+
+th{
+  background-color: #C31014;
+  color: white;
+}
+
+.klopp{
+  border-top: 15px inset #66CDAA;
+  margin-top: 20px;
+}
+
+#kltable{
+  float: right;
+  display: inline-table;
+  position: relative;
+  right: 120px;
+  bottom: 590px;
+}
+
+.klopp p{
+  display: inline-block;
+  width: 400px;
+  position: relative;
+  left: 685px;
+  bottom: 265px;
 }
